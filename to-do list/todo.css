@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}       
+
+
+body
+{
+    height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #8052ec,
+        #d161ff
+    ); 
+}
+.container
+{
+    position: relative;
+    position: absolute;
+    left: 33%;
+    top: 15%;
+    
+
+    width: 500px;
+    height: 380px;
+    text-align: center;
+}
+
+h2{
+    padding-top: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.add-element
+{  
+    margin: 30px 0px;
+}
+
+input
+{
+    padding: 5px 20px;
+    width: 70%;
+    font-family: cursive;
+
+}
+button
+{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color:rgb(134, 133, 133);
+    color: whitesmoke;
+    font-family: cursive;
+}
+
+ul{
+    padding: 12px;
+}
+
+li{
+    list-style: none;
+    border-radius: 5px;
+    padding: 12px 6px;
+    color: white;
+    background-color:#7541ec;
+    margin: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.16);
+    transition: 4ms;
+    font-family: cursive;
+}
+button:hover{
+    background-color: rgb(57, 180, 236);
+}
+li:hover{
+    background-color: rgb(190, 65, 174);
+}
+
+
+.checked{
+    text-decoration: line-through;
+    background-color: rgb(206, 43, 76);
+}
+
+
