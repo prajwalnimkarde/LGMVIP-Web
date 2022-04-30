@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT ENROLLMENT FORM</title>
+    <link rel="stylesheet" href="formcss.css">
+</head>
+<body>
+    <h1 align="center">Student Enrollment Form</h1>
+    
+        <table id="iptable">
+            <tr>
+                <th>Name</th>
+                <td><input type="text" name="Name" id="fName"></td>
+            </tr>
+            <tr>
+                <th>Email id</th>
+                <td><input type="text" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <th>College</th>
+                <td><input type="text" name="college" id="college"></td>
+            </tr>
+            <tr>
+                <th>PRN</th>
+                <td><input type="text" name="PRN" id="PRN"></td>
+            </tr>
+            <tr id="btna">
+                <td colspan="2">
+                    <input type="button" name="button" id="btn" value="Add" onclick="AddRow()">
+                </td>
+            </tr>
+        </table>
+
+        <table id="show">
+            <tr id="tr1">
+                <th>Name</th>
+                <th>Email</th>
+                <th>College</th>
+                <th>PRN</th>
+            </tr>
+        </table>
+    
+    <script src="formjs.js"></script>
+    
+</body>
+</html>
